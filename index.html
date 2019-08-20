@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+ 
+    <div id="content">
+        <div class="container">
+            <h1>My To Do List</h1>
+            <div class="row">
+                <div class="six columns">
+                    <label for="task">Task:</label>
+                    <form action="#" id="form">
+                            <label for="task"></label>
+                            <textarea id="task" class="u-full-width"></textarea>
+                            <input type="submit" class="button u-full-width button-primary" value="Save Task">
+                    </form>
+                </div> <!--.six-->
+                <div class="six columns">
+                    <h2>My list</h2>
+                    <div id="task-list"></div>
+                </div> <!--.six-->
+            </div>
+        </div>
+    </div> <!--#contenido-->
+
+    <script src="app.js"></script>
+</body>
+</html>
