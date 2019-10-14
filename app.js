@@ -44,8 +44,6 @@ function newTask(e){
 	taskList.appendChild(li);
 	addTaskLocalStorage(task);
 
-	//Print the alert
-	alert('Task added.');
 
 	//clears text area after submitted
 	this.reset();
